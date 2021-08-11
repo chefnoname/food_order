@@ -49,9 +49,19 @@
   color: white;
 }
 
+.actions .cancel {
+  border: 1px solid #5c3535;
+}
+
 .actions .submit:hover,
 .actions .submit:active {
   background-color: #834d4d;
+}
+
+.actions .cancel:hover,
+.action .cancel:active {
+  background-color: #5c3535;
+  color: white;
 }
 
 .invalid label {
